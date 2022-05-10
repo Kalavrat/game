@@ -1,3 +1,6 @@
+.body {
+  background-color: gray;
+}
 .h1 {
   font-size: 50px;
   text-align: center;
@@ -5,12 +8,79 @@
   width: 200px;
   margin: auto;
   margin-top: 1%;
-  margin-bottom: 5%;
+  margin-bottom: 1%;
+}
+.lvl {
+  font-size: 35px;
+  text-align: center;
+  color: black;
+  width: 400px;
+  height: 48px;
+  left: 38%;
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: aqua;
+  top: 5.5%;
+  margin-bottom: 3%;
+  position: absolute;
+  user-select: none;
+}
+.twelve {
+  font-size: 35px;
+  width: 70px;
+  height: 48px;
+  top: 5.5%;
+  left: 50%;
+  border-radius: 10px;
+  border: 1px solid black;
+  text-align: center;
+  color: black;
+  background-color: rgb(184, 112, 5);
+  position: absolute;
+  user-select: none;
+}
+.twelve:hover {
+  cursor: pointer;
+}
+.sixteen {
+  font-size: 35px;
+  width: 70px;
+  height: 48px;
+  top: 5.5%;
+  left: 53%;
+  border-radius: 10px;
+  border: 1px solid black;
+  text-align: center;
+  color: black;
+  background-color: rgb(255, 153, 0);
+  position: absolute;
+  user-select: none;
+}
+.sixteen:hover {
+  cursor: pointer;
+}
+.twenty {
+  font-size: 35px;
+  width: 70px;
+  height: 48px;
+  top: 5.5%;
+  left: 56%;
+  border-radius: 10px;
+  border: 1px solid black;
+  text-align: center;
+  color: black;
+  background-color: rgb(255, 153, 0);
+  position: absolute;
+  user-select: none;
+}
+.twenty:hover {
+  cursor: pointer;
 }
 .con {
   border: solid black;
   width: 1000px;
   margin: auto;
+  margin-top: 4%;
   padding: 100px;
   display: flex;
   flex-wrap: wrap;
@@ -40,34 +110,67 @@
   margin: 0;
   text-align: center;
   margin: auto;
-}
-.body {
-  background-color: gray;
+  user-select: none;
 }
 .again {
   width: 250px;
   height: 80px;
   background-color: aqua;
   margin-top: 2%;
-  border: 3px solid black;
+  border: 1px solid black;
   border-radius: 20px;
   font-size: 30px;
   font-weight: bold;
   text-align: center;
-  margin-left: 46%;
-  box-shadow: 0 0 15px 2px;
+  margin-left: 47%;
+  user-select: none;
 }
 .again:hover {
-  background-color: rgb(4, 219, 219);
   cursor: pointer;
+  background-color: rgb(4, 219, 219);
+  border: 0;
+  box-shadow: 0 0 5px 1px;
 }
 .lvlbtn {
+  font-size: 30px;
   background: rgb(255, 153, 0);
-  border: 3px solid black;
-  border-radius: 5px;
+  border: 1px solid black;
+  border-radius: 10px;
   position: absolute;
   height: 60px;
   width: 150px;
-  left: 900px;
-  top: 200px;
+  left: 47.5%;
+  top: 18%;
+}
+.lvlbtn:hover {
+  cursor: pointer;
+  background: rgb(235, 142, 3);
+  border: 0;
+  box-shadow: 0 0 5px 1px;
+}
+.back {
+  width: 120px;
+  height: 60px;
+  top: 14.5%;
+  left: 48.5%;
+  background: rgb(221, 133, 0);
+  border-radius: 10px;
+  box-shadow: 3px 3px 0 #000 inset, -3px -3px 0 #000 inset;
+  display: flex;
+  position: absolute;
+}
+.seconds {
+  font-size: 35px;
+  margin: auto;
+  user-select: none;
+}
+.minutes {
+  font-size: 35px;
+  margin: auto;
+  user-select: none;
+}
+.toch {
+  font-size: 35px;
+  margin: auto;
+  user-select: none;
 }
